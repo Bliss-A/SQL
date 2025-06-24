@@ -33,7 +33,6 @@ VALUES
 --1.Write a SQL query that orders the items by price
 SELECT item_name, price
 FROM superstore
-WHERE price
 ORDER BY price;
 
 --2.Write your own SQL query that will show a statistic about the item prices, like a sum, average, minimum, maximum, or count
